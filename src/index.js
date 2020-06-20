@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import './css/index.css';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* This is what is rendered to the DOM,
         in this code, render the components in order,
         CSS is in index.css.*/}
-        <App />
+        <div>
+          <App />
+        </div> 
   </React.StrictMode>,
   document.getElementById('root')
 );
