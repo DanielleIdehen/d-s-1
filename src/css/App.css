@@ -5,7 +5,7 @@ body {
 
 h1 {
   color: #17252A;
-  font-size: 5em;
+  font-size: 6em;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -14,7 +14,7 @@ h1 {
 
 h2 {
   color: #2B7A78;
-  font-size: 2em;
+  font-size: 3em;
   text-align: left;
   letter-spacing: -1px;
   margin-top: 5px;
@@ -23,16 +23,24 @@ h2 {
 
 h3 {
   color: #3AAFA9;
-  font-size: 1.4em;
+  font-size: 2.4em;
   text-align: left;
   letter-spacing: -1px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
+h4 {
+  color: #3AAFA9;
+  font-size: 1.6em;
+  text-align: left;
+  letter-spacing: -1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 p {
   color: black;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .simple-box {
