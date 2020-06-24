@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PageTitle from './PageTitle';
 import '../css/App.css';
+import LargeHeader from './LargeHeader';
 
 class App extends Component{
   constructor(props){
@@ -9,7 +9,7 @@ class App extends Component{
   render(){
     return (
       <div>
-        <PageTitle />
+        <LargeHeader/>
       </div>
     )}
 }

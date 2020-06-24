@@ -1,8 +1,7 @@
 :root {
-  --primary-color: #17252A;
-  --secondary-color: #2B7A78;
-  --tertiary-color:#3AAFA9;
-  --background-color: #DEF2F1;
+  --primary-color: #1F6521;
+  --secondary-color:#DCDCDC;
+  --background-color:white;
   --success-color: #green;
   --fail-color: #red;
   --light-grey: #grey;
@@ -35,7 +34,7 @@ body {
 }
 
 h1 {
-  color: var(--primary-color);
+  color: var(--background-color);
   font-size: var(--very-large-font);
   align-items: center;
   justify-content: center;
@@ -53,7 +52,7 @@ h2 {
 }
 
 h3 {
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
   font-size: var(--medium-large-font);
   text-align: left;
   letter-spacing: -1px;
@@ -62,7 +61,7 @@ h3 {
 }
 
 h4 {
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
   font-size: var(--medium-font);
   text-align: left;
   letter-spacing: -1px;
@@ -75,7 +74,7 @@ p {
 }
 
 .simple-box {
-  background-color: aliceblue;
+  background-color: white;
   border-color: var(--secondary-color);
   border-style: solid;
   border-width: 0.4em;
@@ -83,4 +82,13 @@ p {
   padding: 0px 10px 0px 10px;
   margin: 25px 50px 75px 50px;
   box-shadow: var(--distant-shadow);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color:var(--primary-color);
+  padding: 10px;
+  text-align: center;
 }
