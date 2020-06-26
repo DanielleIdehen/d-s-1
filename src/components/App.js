@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import LargeHeader from './LargeHeader';
+import NavBar from './NavBar';
 
 class App extends Component{
   constructor(props){
@@ -9,7 +9,8 @@ class App extends Component{
   render(){
     return (
       <div>
-        <LargeHeader/>
+        <NavBar/>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel pellentesque sem. Integer tortor magna.</div>
       </div>
     )}
 }

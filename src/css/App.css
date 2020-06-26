@@ -1,6 +1,5 @@
 :root {
   --primary-color: black;
-  --secondary-color:white;
   --background-color:white;
   --success-color: #green;
   --fail-color: #red;
@@ -40,33 +39,6 @@ h1 {
   justify-content: center;
   display: flex;
   flex-direction: column;
-}
-
-h2 {
-  color: var(--secondary-color);
-  font-size: var(--large-font);
-  text-align: left;
-  letter-spacing: -1px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-h3 {
-  color: var(--secondary-color);
-  font-size: var(--medium-large-font);
-  text-align: left;
-  letter-spacing: -1px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-h4 {
-  color: var(--secondary-color);
-  font-size: var(--medium-font);
-  text-align: left;
-  letter-spacing: -1px;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 p {
   color: black;
