@@ -13,6 +13,8 @@ class LargeHeader extends Component{
     <div class="grid-container">
       <div><FontAwesomeIcon icon={faBars} /></div>
       <div><PageTitle/></div>
+      <div></div>
+      <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel pellentesque sem. Integer tortor magna.</div>
     </div>
   )}
 }
