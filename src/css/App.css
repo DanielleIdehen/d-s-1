@@ -14,18 +14,14 @@ body {
 
 h1 {
   color: var(--primary-color);
-  font-size: var(--very-large-font);
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-p {
-  color: black;
-  font-size: var(--small-font);
 }
 
-@media screen and (min-width: 360px) {
+p {
+  color: black;
+}
+
+/* For small screen, 360px or less */
+@media screen and (max-width: 360px) {
   body {
     background-color: lightgreen;
   }
@@ -34,10 +30,11 @@ p {
     font-size: var(--small-font);
   }
 
-  .nav-bar-grid {
-    display: block;
-    height: var(--height-nav-small-screen);
+
+  .nav-bar{
     max-width: 100%;
+    max-height: 10%;
     background-color:var(--background-color);
   }
+
 }

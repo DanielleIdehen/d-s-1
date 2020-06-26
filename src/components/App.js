@@ -10,7 +10,6 @@ class App extends Component{
     return (
       <div>
         <NavBar/>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel pellentesque sem. Integer tortor magna.</div>
       </div>
     )}
 }
