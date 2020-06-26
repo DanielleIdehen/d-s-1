@@ -1,30 +1,10 @@
 :root {
   --primary-color: black;
-  --background-color:white;
-  --success-color: #green;
-  --fail-color: #red;
-  --light-grey: #grey;
-  --light-dark-grey: #grey;
-  --medium-grey:#grey;
-  --dark-grey:#grey;
-
-  --distant-shadow:0 4px 8px 0 #808080, 0 6px 20px 0 #808080;
-  --strong-shadow: 0;
-  --hover-shadow:0;
-  --subtle-shadow:0; 
-  
-  --very-large-font: 6em;
-  --large-font: 3em;
-  --medium-large-font: 2.4em;
-  --medium-font: 1.25em;
-  --small-font:1em;
-  --very-small-font:0.8em;
-
-  --small-border: 2px;
-  --medium-border: 4px;
-  --large-border: 8px;
-
-
+  --background-color:white;  
+  --margin-width-small-screen: (16/360)%;
+  --column-width-small-screen: (70/360)%;
+  --gutter-width-small-screen: (16/360)%; 
+  --height-nav-small-screen: 8%;
 }
 
 body {
@@ -45,10 +25,19 @@ p {
   font-size: var(--small-font);
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 10% 90%;
-  grid-gap: 10px;
-  background-color:var(--background-color);
-  padding: 10px;
+@media screen and (min-width: 360px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  h1 {
+    font-size: var(--small-font);
+  }
+
+  .nav-bar-grid {
+    display: block;
+    height: var(--height-nav-small-screen);
+    max-width: 100%;
+    background-color:var(--background-color);
+  }
 }

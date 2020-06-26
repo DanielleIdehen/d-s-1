@@ -10,9 +10,11 @@ class NavBar extends Component{
   }
   render() {
     return(
-    <div class="grid-container">
-      <div><FontAwesomeIcon icon={faBars} /></div>
-      <div><PageTitle/></div>
+    <div class="nav-bar-grid">
+      <ul>
+        <li><FontAwesomeIcon icon={faBars} /></li>
+        <li><PageTitle/></li>
+      </ul>
     </div>
   )}
 }
