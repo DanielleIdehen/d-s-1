@@ -15,8 +15,6 @@ class NavBar extends Component{
     <div class="nav-bar">
       <div class="nav-bar-item"><FontAwesomeIcon icon={faBars} /></div>
       <div class="nav-bar-item">{this.state.title}</div>
-      <div class="nav-bar-item">Hello</div>
-      <div class="nav-bar-item">Hello</div>
     </div>
   )}
 }

@@ -26,11 +26,11 @@ p{
     background-color: $backgroundcolor;
     grid-column-gap: 4vw;
     grid-template-columns: 20vw 20vw 20vw 20vw;
-    
   }
 
   .nav-bar-item {
     background-color: orange;
     text-align: center;
+    white-space: nowrap;
   }
 }
