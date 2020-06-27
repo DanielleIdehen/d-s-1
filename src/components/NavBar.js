@@ -13,8 +13,8 @@ class NavBar extends Component{
   render() {
     return(
     <div class="nav-bar">
-      <div class="nav-bar-item"><FontAwesomeIcon icon={faBars} /></div>
-      <div class="nav-bar-item">{this.state.title}</div>
+      <div><FontAwesomeIcon icon={faBars} /></div>
+      <div>{this.state.title}</div>
     </div>
   )}
 }

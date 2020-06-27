@@ -1,5 +1,10 @@
 $primarycolor: black;
 $backgroundcolor:white; 
+$small-column-width: 20vw;
+$small-margin-gutter: 4vw;
+$medium-column-width: 10vw;
+$meduim-margin-gutter: 2.2222222vw;
+$large-padding-top-bottom: 3vh;
 
 body{
   background-color:$backgroundcolor;
@@ -13,25 +18,87 @@ h1{
 p{
   color: black;
 }
-/* For small screen, 360px or less*/
-@media screen and (max-width: 360px){
+
+/* For small screens (phones), 600px or less*/
+@media screen and (max-width: 600px){
   body{
     background-color: white;
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
 
-  .nav-bar{
+  .nav-bar {
     display: grid;
-    padding: 4vw;
+    padding: $small-margin-gutter;
     background-color: $backgroundcolor;
-    grid-column-gap: 4vw;
-    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-column-gap: $small-margin-gutter;
+    grid-template-columns: $small-column-width $small-column-width $small-column-width $small-column-width;
     box-shadow:  0 0 10px rgba(0,0,0,0.19);
+
+    div {
+      // background-color: orange; //To check spacing
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+}
+
+/* For medium screens (large phones/tablets), 600px or more*/
+@media screen and (min-width: 600px){
+  body{
+    background-color: white;
+    font-size: 2.4em;
   }
 
-  .nav-bar-item {
-    // background-color: orange; //To check spacing
-    text-align: center;
-    white-space: nowrap;
+  .nav-bar {
+    display: grid;
+    padding: $meduim-margin-gutter;
+    background-color: $backgroundcolor;
+    grid-column-gap: $meduim-margin-gutter;
+    grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
+    box-shadow:  0 0 10px rgba(0,0,0,0.19);
+    div {
+      // background-color: orange; //To check spacing
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+}
+
+/* For large screens (laptops), 992px or more*/
+@media screen and (min-width: 992px){
+  body{
+    background-color: white;
+    font-size: 3em;
+  }
+  .nav-bar {
+    div {
+      // background-color: orange; //To check spacing
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+}
+
+/* For extra large screens (large laptop), 1200px or more*/
+@media screen and (min-width: 1200px){
+  body{
+    background-color: white;
+    font-size: 3em;
+  }
+  .nav-bar {
+    display: grid;
+    padding-top: $large-padding-top-bottom;
+    padding-bottom: $large-padding-top-bottom;
+    padding-left: $meduim-margin-gutter;
+    padding-right: $meduim-margin-gutter;
+    background-color: $backgroundcolor;
+    grid-column-gap: $meduim-margin-gutter;
+    grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
+    box-shadow:  0 0 10px rgba(0,0,0,0.19);
+    div {
+      // background-color: orange; //To check spacing
+      text-align: center;
+      white-space: nowrap;
+    }
   }
 }
