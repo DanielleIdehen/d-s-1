@@ -1,0 +1,37 @@
+$primarycolor: black;
+$backgroundcolor:white; 
+
+body{
+  background-color:$backgroundcolor;
+  text-align: left;
+}
+
+h1{
+  color: $primarycolor;
+}
+
+p{
+  color: black;
+}
+/* For small screen, 360px or less*/
+@media screen and (max-width: 360px){
+  body{
+    background-color: lightgreen;
+    font-size: 1.6em;
+  }
+
+  .nav-bar{
+    display: grid;
+    width: 100vw;
+    grid-column-gap: 4vw;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    background-color: #2196F3;
+    padding: 4vw;
+    background-color: $backgroundcolor;
+  }
+
+  .nav-bar-item {
+    background-color: orange;
+    text-align: center;
+  }
+}

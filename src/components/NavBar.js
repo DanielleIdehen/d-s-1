@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/App.css';
+import '../styles/App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -13,6 +13,10 @@ class NavBar extends Component{
   render() {
     return(
     <div class="nav-bar">
+      <div class="nav-bar-item"><FontAwesomeIcon icon={faBars} /></div>
+      <div class="nav-bar-item">{this.state.title}</div>
+      <div class="nav-bar-item">Hello</div>
+      <div class="nav-bar-item">Hello</div>
     </div>
   )}
 }
