@@ -22,12 +22,11 @@ p{
 
   .nav-bar{
     display: grid;
-    width: 100vw;
-    grid-column-gap: 4vw;
-    grid-template-columns: 20vw 20vw 20vw 20vw;
-    background-color: #2196F3;
     padding: 4vw;
     background-color: $backgroundcolor;
+    grid-column-gap: 4vw;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    
   }
 
   .nav-bar-item {
