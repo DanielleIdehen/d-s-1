@@ -16,7 +16,7 @@ p{
 /* For small screen, 360px or less*/
 @media screen and (max-width: 360px){
   body{
-    background-color: lightgreen;
+    background-color: white;
     font-size: 1.6em;
   }
 
@@ -26,10 +26,11 @@ p{
     background-color: $backgroundcolor;
     grid-column-gap: 4vw;
     grid-template-columns: 20vw 20vw 20vw 20vw;
+    box-shadow:  0 0 10px rgba(0,0,0,0.19);
   }
 
   .nav-bar-item {
-    background-color: orange;
+    // background-color: orange; //To check spacing
     text-align: center;
     white-space: nowrap;
   }
