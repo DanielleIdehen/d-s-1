@@ -1,3 +1,5 @@
+//##############################################################
+// Global values
 $primarycolor: black;
 $backgroundcolor:white; 
 
@@ -5,7 +7,7 @@ $small-column-width: 20vw;
 $small-margin-gutter: 4vw;
 $medium-column-width: 10vw;
 $meduim-margin-gutter: 2.2222222vw;
-$large-padding-top-bottom: 3vh;
+$large-padding-top-bottom: 2vh;
 
 $small-shape-height: 3em;
 
@@ -14,6 +16,8 @@ $medium-edge-curve: 10px;
 $nav-shadow: 0 0 10px rgba(0,0,0,0.19);
 $content-shadow: 0 0 3px rgba(0,0,0,0.19);
 
+//##############################################################
+// Global styles
 body{
   background-color:$backgroundcolor;
   text-align: left;
@@ -27,46 +31,46 @@ p{
   color: black;
 }
 
+.nav-bar {
+  font-size: 1.8em;
+  display: grid;
+  padding: $small-margin-gutter;
+  background-color: $backgroundcolor;
+  grid-column-gap: $small-margin-gutter;
+  grid-template-columns: $small-column-width $small-column-width $small-column-width $small-column-width;
+  box-shadow: $nav-shadow;
+
+  div {
+    // background-color: orange; //To check spacing
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
+.content-shapes{
+  display: grid;
+  font-size:1.4em;
+  grid-template-columns: auto auto;
+  grid-gap: $small-margin-gutter;
+  padding: $small-margin-gutter;
+  div {
+    text-align: center;
+    height: $small-shape-height;
+    border-radius: $medium-edge-curve;
+    padding: $small-margin-gutter;
+    box-shadow: $content-shadow;
+  }
+  div:hover{
+    background-color: linen;
+  }
+}
+
+//##############################################################
+// Styles for different sized screens
 /* For small screens (phones), 600px or less*/
 @media screen and (max-width: 600px){
   body{
     background-color: white;
-  }
-
-  .nav-bar {
-    font-size: 1.8em;
-    display: grid;
-    padding: $small-margin-gutter;
-    background-color: $backgroundcolor;
-    grid-column-gap: $small-margin-gutter;
-    grid-template-columns: $small-column-width $small-column-width $small-column-width $small-column-width;
-    box-shadow: $nav-shadow;
-
-    div {
-      // background-color: orange; //To check spacing
-      text-align: center;
-      white-space: nowrap;
-    }
-  }
-
-  .content-shapes{
-    // background-color: lightgrey;
-    display: grid;
-    font-size:1.4em;
-    grid-template-columns: auto auto;
-    grid-gap: $small-margin-gutter;
-    padding: $small-margin-gutter;
-    div {
-      // background-color: palevioletred;
-      text-align: center;
-      height: $small-shape-height;
-      border-radius: $medium-edge-curve;
-      padding: $small-margin-gutter;
-      box-shadow: $content-shadow;
-    }
-    div:hover{
-      background-color: linen;
-    }
   }
 }
 
@@ -74,17 +78,13 @@ p{
 @media screen and (min-width: 600px){
   .nav-bar {
     font-size: 2.4em;
-    display: grid;
     padding: $meduim-margin-gutter;
-    background-color: $backgroundcolor;
     grid-column-gap: $meduim-margin-gutter;
     grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
-    box-shadow:  0 0 10px rgba(0,0,0,0.19);
-    div {
-      // background-color: orange; //To check spacing
-      text-align: center;
-      white-space: nowrap;
-    }
+  }
+
+  .content-shapes {
+    font-size: 1.8em;
   }
 }
 
@@ -92,16 +92,15 @@ p{
 @media screen and (min-width: 992px){
   .nav-bar {
     font-size: 3em;
-    display: grid;
+  }
+  .content-shapes {
+    font-size: 1.8em;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: $meduim-margin-gutter;
     padding: $meduim-margin-gutter;
-    background-color: $backgroundcolor;
-    grid-column-gap: $meduim-margin-gutter;
-    grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
-    box-shadow:  0 0 10px rgba(0,0,0,0.19);
-    div {
-      // background-color: orange; //To check spacing
-      text-align: center;
-      white-space: nowrap;
+
+    div{
+      padding: $meduim-margin-gutter;
     }
   }
 }
@@ -110,19 +109,17 @@ p{
 @media screen and (min-width: 1200px){
   .nav-bar {
     font-size: 3em;
-    display: grid;
     padding-top: $large-padding-top-bottom;
     padding-bottom: $large-padding-top-bottom;
     padding-left: $meduim-margin-gutter;
     padding-right: $meduim-margin-gutter;
-    background-color: $backgroundcolor;
     grid-column-gap: $meduim-margin-gutter;
     grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
-    box-shadow:  0 0 10px rgba(0,0,0,0.19);
-    div {
-      // background-color: orange; //To check spacing
-      text-align: center;
-      white-space: nowrap;
-    }
+  }
+  .content-shapes {
+    font-size: 1.8em;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: $meduim-margin-gutter;
+    padding: $meduim-margin-gutter;
   }
 }
