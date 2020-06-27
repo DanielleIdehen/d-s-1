@@ -1,10 +1,18 @@
 $primarycolor: black;
 $backgroundcolor:white; 
+
 $small-column-width: 20vw;
 $small-margin-gutter: 4vw;
 $medium-column-width: 10vw;
 $meduim-margin-gutter: 2.2222222vw;
 $large-padding-top-bottom: 3vh;
+
+$small-shape-height: 3em;
+
+$medium-edge-curve: 10px;
+
+$nav-shadow: 0 0 10px rgba(0,0,0,0.19);
+$content-shadow: 0 0 3px rgba(0,0,0,0.19);
 
 body{
   background-color:$backgroundcolor;
@@ -23,16 +31,16 @@ p{
 @media screen and (max-width: 600px){
   body{
     background-color: white;
-    font-size: 1.8em;
   }
 
   .nav-bar {
+    font-size: 1.8em;
     display: grid;
     padding: $small-margin-gutter;
     background-color: $backgroundcolor;
     grid-column-gap: $small-margin-gutter;
     grid-template-columns: $small-column-width $small-column-width $small-column-width $small-column-width;
-    box-shadow:  0 0 10px rgba(0,0,0,0.19);
+    box-shadow: $nav-shadow;
 
     div {
       // background-color: orange; //To check spacing
@@ -40,16 +48,32 @@ p{
       white-space: nowrap;
     }
   }
+
+  .content-shapes{
+    // background-color: lightgrey;
+    display: grid;
+    font-size:1.4em;
+    grid-template-columns: auto auto;
+    grid-gap: $small-margin-gutter;
+    padding: $small-margin-gutter;
+    div {
+      // background-color: palevioletred;
+      text-align: center;
+      height: $small-shape-height;
+      border-radius: $medium-edge-curve;
+      padding: $small-margin-gutter;
+      box-shadow: $content-shadow;
+    }
+    div:hover{
+      background-color: linen;
+    }
+  }
 }
 
 /* For medium screens (large phones/tablets), 600px or more*/
 @media screen and (min-width: 600px){
-  body{
-    background-color: white;
-    font-size: 2.4em;
-  }
-
   .nav-bar {
+    font-size: 2.4em;
     display: grid;
     padding: $meduim-margin-gutter;
     background-color: $backgroundcolor;
@@ -66,11 +90,14 @@ p{
 
 /* For large screens (laptops), 992px or more*/
 @media screen and (min-width: 992px){
-  body{
-    background-color: white;
-    font-size: 3em;
-  }
   .nav-bar {
+    font-size: 3em;
+    display: grid;
+    padding: $meduim-margin-gutter;
+    background-color: $backgroundcolor;
+    grid-column-gap: $meduim-margin-gutter;
+    grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
+    box-shadow:  0 0 10px rgba(0,0,0,0.19);
     div {
       // background-color: orange; //To check spacing
       text-align: center;
@@ -81,11 +108,8 @@ p{
 
 /* For extra large screens (large laptop), 1200px or more*/
 @media screen and (min-width: 1200px){
-  body{
-    background-color: white;
-    font-size: 3em;
-  }
   .nav-bar {
+    font-size: 3em;
     display: grid;
     padding-top: $large-padding-top-bottom;
     padding-bottom: $large-padding-top-bottom;
