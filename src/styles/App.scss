@@ -20,7 +20,7 @@ $content-shadow: 0 0 3px rgba(0,0,0,0.19);
 // Global styles
 body{
   background-color:$backgroundcolor;
-  text-align: left;
+  text-align: center;
 }
 
 h1{
@@ -28,21 +28,15 @@ h1{
 }
 
 p{
-  color: black;
+  color: $primarycolor;
 }
 
 .nav-bar {
-  font-size: 1.8em;
   display: grid;
-  padding: $small-margin-gutter;
   background-color: $backgroundcolor;
-  grid-column-gap: $small-margin-gutter;
-  grid-template-columns: $small-column-width $small-column-width $small-column-width $small-column-width;
   box-shadow: $nav-shadow;
-
   div {
     // background-color: orange; //To check spacing
-    text-align: center;
     white-space: nowrap;
   }
 }
@@ -52,8 +46,11 @@ p{
 // Styles for different sized screens
 /* For small screens (phones), 600px or less*/
 @media screen and (max-width: 600px){
-  body{
-    background-color: white;
+  .nav-bar {
+    font-size: 1.8em;
+    padding: $small-margin-gutter;
+    grid-gap: $small-margin-gutter;
+    grid-template-columns: $small-column-width $small-column-width $small-column-width $small-column-width;
   }
   .content-shapes{
     display: grid;
@@ -62,7 +59,6 @@ p{
     grid-gap: $small-margin-gutter;
     padding: $small-margin-gutter;
     div {
-      text-align: center;
       border-radius: $medium-edge-curve;
       padding: $small-margin-gutter;
       box-shadow: $content-shadow;
@@ -110,7 +106,7 @@ p{
   .nav-bar {
     font-size: 2.4em;
     padding: $meduim-margin-gutter;
-    grid-column-gap: $meduim-margin-gutter;
+    grid-gap: $meduim-margin-gutter;
     grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
   }
 
@@ -121,7 +117,6 @@ p{
     padding: $meduim-margin-gutter;
     grid-gap: $meduim-margin-gutter;
     div {
-      text-align: center;
       border-radius: $medium-edge-curve;
       padding: $meduim-margin-gutter;
       box-shadow: $content-shadow;
@@ -168,6 +163,9 @@ p{
 @media screen and (min-width: 992px){
   .nav-bar {
     font-size: 3em;
+    padding: $meduim-margin-gutter;
+    grid-gap: $meduim-margin-gutter;
+    grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
   }
   .content-shapes{
     display: grid;
@@ -178,7 +176,6 @@ p{
     background-color: lightcyan;
     div {
       background-color:lightcoral;
-      text-align: center;
       border-radius: $medium-edge-curve;
       padding: $meduim-margin-gutter;
       box-shadow: $content-shadow;
@@ -226,7 +223,7 @@ p{
   .nav-bar {
     font-size: 3em;
     padding: $large-padding-top-bottom $meduim-margin-gutter;
-    grid-column-gap: $meduim-margin-gutter;
+    grid-gap: $meduim-margin-gutter;
     grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
   }
   .content-shapes{
@@ -238,7 +235,6 @@ p{
     background-color: lightcyan;
     div {
       background-color:lightcoral;
-      text-align: center;
       border-radius: $medium-edge-curve;
       padding: $meduim-margin-gutter;
       box-shadow: $content-shadow;

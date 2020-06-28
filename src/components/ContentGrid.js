@@ -16,7 +16,6 @@ class ContentGrid extends Component {
         <div class="content5">Hobbies</div>
         <div class="content6">About This Website</div>
         <div class="content7">Contact Information</div>
-        <div class="content8">Extra</div>
       </div>
     )}
 }
