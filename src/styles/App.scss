@@ -41,6 +41,17 @@ p{
   }
 }
 
+.content-shapes{
+  display: grid;
+  div {
+    border-radius: $medium-edge-curve;
+    box-shadow: $content-shadow;
+  }
+  div:hover{
+    background-color: linen;
+  }
+}
+
 
 //##############################################################
 // Styles for different sized screens
@@ -53,18 +64,12 @@ p{
     grid-template-columns: $small-column-width $small-column-width $small-column-width $small-column-width;
   }
   .content-shapes{
-    display: grid;
     font-size:1.4em;
     grid-template-columns: $small-column-width $small-column-width $small-column-width $small-column-width;
     grid-gap: $small-margin-gutter;
     padding: $small-margin-gutter;
     div {
-      border-radius: $medium-edge-curve;
       padding: $small-margin-gutter;
-      box-shadow: $content-shadow;
-    }
-    div:hover{
-      background-color: linen;
     }
     .content1 {
       grid-column-start: 1;
@@ -111,18 +116,12 @@ p{
   }
 
   .content-shapes{
-    display: grid;
     font-size: 1.8em;
     grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
     padding: $meduim-margin-gutter;
     grid-gap: $meduim-margin-gutter;
     div {
-      border-radius: $medium-edge-curve;
       padding: $meduim-margin-gutter;
-      box-shadow: $content-shadow;
-    }
-    div:hover{
-      background-color: linen;
     }
     .content1 {
       grid-column-start: 1;
@@ -168,20 +167,12 @@ p{
     grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
   }
   .content-shapes{
-    display: grid;
     font-size:1.4em;
     padding: $large-padding-top-bottom $meduim-margin-gutter; 
     grid-template-columns:  $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
     grid-gap: $meduim-margin-gutter;
-    background-color: lightcyan;
     div {
-      background-color:lightcoral;
-      border-radius: $medium-edge-curve;
       padding: $meduim-margin-gutter;
-      box-shadow: $content-shadow;
-    }
-    div:hover{
-      background-color: linen;
     }
     .content1 {
       grid-column-start: 1;
@@ -227,20 +218,12 @@ p{
     grid-template-columns: $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
   }
   .content-shapes{
-    display: grid;
     font-size:1.4em;
     padding: $large-padding-top-bottom $meduim-margin-gutter; 
     grid-template-columns:  $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width $medium-column-width;
     grid-gap: $meduim-margin-gutter;
-    background-color: lightcyan;
     div {
-      background-color:lightcoral;
-      border-radius: $medium-edge-curve;
       padding: $meduim-margin-gutter;
-      box-shadow: $content-shadow;
-    }
-    div:hover{
-      background-color: linen;
     }
     .content1 {
       grid-column-start: 1;
