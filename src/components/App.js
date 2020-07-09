@@ -8,9 +8,9 @@ class App extends Component{
   }
   render(){
     return (
-      <div className="heading-box">
+      <div>
         <Heading />
-      </div>
+      </div> 
     )}
 }
 

@@ -10,8 +10,10 @@ class Heading extends Component{
   }
   render(){
     return(
-      <div>
-        <p>{this.state.title}</p>
+      <div class="heading-container">
+        <div class="main-heading">
+          {this.state.title}
+        </div>
       </div>
     )
   }

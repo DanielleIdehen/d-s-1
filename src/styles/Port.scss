@@ -1,17 +1,32 @@
 //imports
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&display=swap');
 //##############################################################
 // Global values
-$primarycolor: black;
 $backgroundcolor:white; 
 
-div{
+div {
   white-space: pre-wrap;
 }// to enable /n to create a new line
 
-.heading-box {
-  font-size: 40px;
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.heading-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.main-heading {
+  font-size: 4.2rem;
   text-align: center;
   font-family: 'Patua One', cursive;
-  // align-self: centre;
+  background-color: lightcyan;
 }
