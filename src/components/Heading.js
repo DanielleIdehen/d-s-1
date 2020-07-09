@@ -5,7 +5,7 @@ class Heading extends Component{
   constructor(props){
     super(props);
     this.state = {
-      'title': 'Hi, I\'m Danielle. \nA full stack \n Software Engineer.'
+      'title': 'Hi, I\'m Danielle.\nA full stack\nSoftware Engineer.'
     }
   }
   render(){

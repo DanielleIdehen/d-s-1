@@ -1,8 +1,7 @@
-//imports
+//imports------------
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&display=swap');
-//##############################################################
-// Global values
-$backgroundcolor:white; 
+
+//Styles--------------
 
 div {
   white-space: pre-wrap;
@@ -12,21 +11,17 @@ p{
   font-family: 'Roboto', sans-serif;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 .heading-container {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  background-color: lightcyan;
 }
 
 .main-heading {
   font-size: 4.2rem;
-  text-align: center;
+  text-align: Left;
   font-family: 'Patua One', cursive;
   background-color: lightcyan;
 }
