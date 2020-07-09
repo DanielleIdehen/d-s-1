@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.scss';
 import Heading from './Heading';
+import EmailIcon from './EmailIcon';
 
 class App extends Component{
   constructor(props){
@@ -10,6 +11,7 @@ class App extends Component{
     return (
       <div>
         <Heading />
+        <EmailIcon />
       </div> 
     )}
 }
