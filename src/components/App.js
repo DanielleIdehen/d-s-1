@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/App.scss';
-import NavBar from './NavBar';
-import ContentGrid from './ContentGrid';
+import Heading from './Heading';
 
 class App extends Component{
   constructor(props){
@@ -9,9 +8,8 @@ class App extends Component{
   }
   render(){
     return (
-      <div>
-        <NavBar/>
-        <ContentGrid />
+      <div className="heading-box">
+        <Heading />
       </div>
     )}
 }

@@ -7,7 +7,7 @@ class NavBar extends Component{
   constructor(props){
     super();
     this.state = {
-      title: 'Danielle Idehen'
+      title: 'DANIELLE IDEHEN'
     }
   }
   render() {
