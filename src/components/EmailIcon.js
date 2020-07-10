@@ -10,11 +10,13 @@ class EmailIcon extends Component {
 
   render(){
     return(
-      <div class="email-container">
-        <div class="email-icon">
+      <a href="mailto:someone@example.com">
+        <div class="email-container">
+          <div class="email-icon">
           <FontAwesomeIcon icon={faEnvelope} />
         </div>
-      </div>
+       </div>
+      </a>
     )
   }
 }
