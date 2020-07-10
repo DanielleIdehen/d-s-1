@@ -7,8 +7,8 @@ class Name extends Component {
   }
   render(){
     return (
-      <div>
-
+      <div class="name-container">
+        <p>Danielle Idehen</p>
       </div>
     )}
 }
