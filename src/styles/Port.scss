@@ -35,8 +35,10 @@ p {
   .email-icon{
     font-size: 2em;
     color: blue;
+    
   }
   &:hover {
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.28);;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.28);
+    
   }
 }
