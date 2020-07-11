@@ -39,6 +39,7 @@ p {
   border-radius: 50%;
   .email-icon{
     font-size: 2em;
+    text-align: center;
     color: $boldBlue;
   }
   &:hover {
@@ -56,6 +57,7 @@ p {
   left: 1rem;
   p {
     font-size: 1.2rem;
+    text-align: center;
     color: $boldBlue;
   }
 }
@@ -71,6 +73,7 @@ p {
   border-radius: 50%;
   .scroll-icon{
     font-size: 2em;
+    text-align: center;
     color: $boldBlue;
   }
   &:hover {

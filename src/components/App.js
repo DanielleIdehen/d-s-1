@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/App.scss';
+import '../styles/Port.scss';
 import Heading from './Heading';
 import EmailIcon from './EmailIcon';
 import Name from './Name';
@@ -12,8 +12,9 @@ class App extends Component{
   render(){
     return (
       <div>
+        <EmailIcon/>
+        <Name />
         <Heading />
-        <EmailIcon />
         <Scroll />
       </div> 
     )}

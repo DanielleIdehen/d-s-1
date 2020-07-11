@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/App.scss';
+import '../styles/Port.scss';
 import { faArrowDown} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

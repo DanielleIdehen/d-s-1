@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/App.scss';
+import '../styles/Port.scss';
 
 class Name extends Component {
   constructor(props){
