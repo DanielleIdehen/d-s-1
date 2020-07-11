@@ -10,7 +10,6 @@ class MainPage extends Component {
   render(){
     return(
         <div className="new-page">
-          {/* <Name /> */}
        </div>
     )}
 }
