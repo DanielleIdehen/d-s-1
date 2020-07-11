@@ -16,13 +16,9 @@ class CoverPage extends Component {
     return(
         <div className="new-page">
           <Heading />
-          <Link
-            activeClass="active"
-            to="mainpage"
-            spy={true}
-            smooth={true}
-            offset={-10}
-            duration={500}
+          <Link activeClass="active" to="mainpage"
+            spy={true} smooth={true}
+            offset={0} duration={1000}
             >
               <ScrollIcon />
             </Link>
