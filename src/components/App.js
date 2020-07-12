@@ -3,6 +3,7 @@ import '../styles/Port.scss';
 
 import CoverPage from './CoverPage';
 import MainPage from './MainPage';
+import BottomPage from './BottomPage';
 
 class App extends Component{
   constructor(props){

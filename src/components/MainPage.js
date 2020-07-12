@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Port.scss';
-
+import Name from './Name';
+import MainGrid from './MainGrid';
 
 class MainPage extends Component {
   constructor(props){
@@ -9,8 +10,10 @@ class MainPage extends Component {
 
   render(){
     return(
-        <div className="new-page">
-       </div>
+      <div className="reg-page">
+        <Name />
+        <MainGrid />
+      </div>
     )}
 }
 
