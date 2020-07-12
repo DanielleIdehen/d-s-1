@@ -27,7 +27,7 @@ class MainGrid extends Component{
          Suspendisse at gravida arcu. Aenean molestie eu metus eget malesuada." />
       <GridItem 
         title="Education"
-        points= {["X", "Y"]}
+        points= {["University Graduate"]}
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Nam ultrices gravida vehicula. In dignissim, erat in tempus ultrices, 
         ipsum dui pretium enim, non consequat felis quam eu justo. 

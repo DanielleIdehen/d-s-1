@@ -10,7 +10,7 @@ class GridItem extends Component{
     return(
     <div className="grid-item">
       <div className="title">{this.props.title}</div>
-      <div className="key-points">{keyPoints? keyPoints.join(" , ") : "Hello" }</div>
+      <div className="key-points">{keyPoints? keyPoints.join(" , ") : " " }</div>
       <p>{this.props.content}</p>
     </div>
     )}
