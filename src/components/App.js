@@ -4,6 +4,7 @@ import '../styles/Port.scss';
 import CoverPage from './CoverPage';
 import MainPage from './MainPage';
 import BottomPage from './BottomPage';
+import Background from './Background';
 
 class App extends Component{
   constructor(props){
@@ -12,6 +13,7 @@ class App extends Component{
   render(){
     return (
       <div>
+        <Background />
         <div id="coverpage"><CoverPage/></div>
         <div id="mainpage"><MainPage/></div>
       </div> 
