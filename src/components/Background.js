@@ -8,8 +8,16 @@ class Background extends Component {
 
   render(){
     return(
-      <div className="large-pink-circle-container">
-        <div className="circle"></div>
+      <div>
+        <div className="large-pink-circle-container">
+          <div className="circle"></div>
+        </div>
+        <div className="large-gold-circle-container">
+          <div className="circle"></div>
+        </div>
+        {/* <div className="huge-gold-circle-container">
+          <div className="circle"></div>
+        </div> */}
       </div>
     )}
 }

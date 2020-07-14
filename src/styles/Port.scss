@@ -5,6 +5,7 @@
 $boldBlue: #0D19A3;
 $boldPink:#D9B08C;
 $softPink:#FFCB9A; 
+$softGold:rgb(248, 248, 124);
 $softGrey: #d9d9d9;
 
 div {
@@ -59,7 +60,6 @@ p {
   right:0.5rem;
   bottom: 0.5rem;
   left: 0.5rem;
-  // transform: translate(4%, 1vh);
   position: -webkit-sticky;
   position: sticky;
   box-shadow: 0px 5px 15px rgba(0,0,0.0,0.20);
@@ -127,13 +127,49 @@ p {
 }
 
 .large-pink-circle-container {
+  z-index: -1;
   position: relative;
-  width: 15vw;
-  height:50vh;
+  top: -5rem;
+  left: -5rem;
+  width: 26vw;
+  // background-color: lightgreen;
   .circle {
     border-radius: 50%;
     width:100%;
     padding-bottom: 100%;
     background-color: $softPink;
+    box-shadow: -20px -20px 50px 10px $boldPink inset;
+  }
+}
+
+.large-gold-circle-container {
+  z-index: -1;
+  position: relative;
+  width: 25vw;
+  left:20vw;
+  bottom:-30vh;
+  // background-color: lightgreen;
+  .circle {
+    border-radius: 50%;
+    width:100%;
+    padding-bottom: 100%;
+    background-color: $softGold;
+    box-shadow: 20px 20px 70px 10px $boldPink inset;
+  }
+}
+
+.huge-gold-circle-container {
+  z-index: -1;
+  position: relative;
+  width: 25vw;
+  top:-20vh;
+  right:-50vw;
+  // background-color: lightgreen;
+  .circle {
+    border-radius: 50%;
+    width:100%;
+    padding-bottom: 100%;
+    background-color: $softGold;
+    box-shadow: 20px 20px 50px 10px $boldPink inset;
   }
 }

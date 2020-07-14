@@ -5,6 +5,7 @@ import '../styles/Port.scss';
 import Heading from './Heading';
 import EmailIcon from './EmailIcon';
 import ScrollIcon from './ScrollIcon';
+import Background from './Background';
 
 
 class CoverPage extends Component {
@@ -15,6 +16,7 @@ class CoverPage extends Component {
   render(){
     return(
         <div className="reg-page">
+          <Background />
           <Heading />
           <Link activeClass="active" to="mainpage" spy={true} smooth={true} offset={0} duration={1000} >
             <ScrollIcon />

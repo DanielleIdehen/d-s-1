@@ -13,7 +13,6 @@ class App extends Component{
   render(){
     return (
       <div>
-        <Background />
         <div id="coverpage"><CoverPage/></div>
         <div id="mainpage"><MainPage/></div>
       </div> 
