@@ -75,7 +75,7 @@ p {
   width: 3rem;
   position: absolute;
   bottom: 1rem;
-  left: 50%;
+  left: 46vw;
   border-style: solid;
   border-color: $boldBlue;
   border-radius: 50%;
@@ -102,13 +102,13 @@ p {
   height: 200vh;
   max-width: 100vw;
   display: grid;
-  grid-gap: 1.6rem;
+  grid-gap: 5rem;
   grid-template-columns: auto auto;
   margin: 2rem;
   .grid-item{
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 5px 10px #B09CE2;
-    border-radius: 5%;
+    border-radius: 10px;
     padding: 2rem;
     font-size: 1.2rem;
     &:hover {
