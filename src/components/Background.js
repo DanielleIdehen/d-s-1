@@ -15,9 +15,12 @@ class Background extends Component {
         <div className="large-gold-circle-container">
           <div className="circle"></div>
         </div>
-        {/* <div className="huge-gold-circle-container">
+        <div className="right-up-circle-container">
           <div className="circle"></div>
-        </div> */}
+        </div>
+        <div className="right-down-circle-container">
+          <div className="circle"></div>
+        </div>
       </div>
     )}
 }

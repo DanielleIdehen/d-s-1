@@ -128,10 +128,10 @@ p {
 
 .large-pink-circle-container {
   z-index: -1;
-  position: relative;
+  position: absolute;
   top: -5rem;
   left: -5rem;
-  width: 26vw;
+  width: 20rem;
   // background-color: lightgreen;
   .circle {
     border-radius: 50%;
@@ -144,32 +144,48 @@ p {
 
 .large-gold-circle-container {
   z-index: -1;
-  position: relative;
-  width: 25vw;
-  left:20vw;
-  bottom:-30vh;
+  position: absolute;
+  width: 15rem;
+  left:15vw;
+  bottom:-5vh;
   // background-color: lightgreen;
   .circle {
     border-radius: 50%;
     width:100%;
     padding-bottom: 100%;
-    background-color: $softGold;
+    background-color: $softPink;
     box-shadow: 20px 20px 70px 10px $boldPink inset;
   }
 }
 
-.huge-gold-circle-container {
+.right-up-circle-container {
   z-index: -1;
-  position: relative;
-  width: 25vw;
-  top:-20vh;
-  right:-50vw;
+  position: absolute;
+  width: 15rem;
+  top:8vh;
+  right:10vw;
   // background-color: lightgreen;
   .circle {
     border-radius: 50%;
     width:100%;
     padding-bottom: 100%;
-    background-color: $softGold;
+    background-color: $softPink;
+    box-shadow: 20px 20px 50px 10px $boldPink inset;
+  }
+}
+
+.right-down-circle-container {
+  z-index: -1;
+  position: absolute;
+  width: 10rem;
+  bottom:5vh;
+  right:5vw;
+  // background-color: lightgreen;
+  .circle {
+    border-radius: 50%;
+    width:100%;
+    padding-bottom: 100%;
+    background-color: $softPink;
     box-shadow: 20px 20px 50px 10px $boldPink inset;
   }
 }
