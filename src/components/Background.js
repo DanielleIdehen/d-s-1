@@ -21,6 +21,9 @@ class Background extends Component {
         <div className="right-down-circle-container">
           <div className="circle"></div>
         </div>
+        <div className="back-circle-container">
+          <div className="circle"></div>
+        </div>
       </div>
     )}
 }
