@@ -2,16 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&display=swap');
 
 //Styles--------------
-// $boldBlue: #0D19A3;
 $boldBlue: #41B3A3;
-$softBlue:#86b3d16c;
-$boldPink:#E8A87C;
-$softPink:#fcf1c0;
+$softBlue:#9cd0f3e5;
+$boldPink:#D9B08C;
+$softPink:#ffd1a6;
 $softGrey: #d9d9d9;
-
-// div {
-//   // white-space: pre-wrap;
-// }// to enable /n to create a new line
 
 p {
   font-family: 'Roboto', sans-serif;
@@ -22,47 +17,73 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  // background-color: 
 }
 
 .main-heading {
   font-size: 4.2rem;
-  text-align: Left;
+  text-align: left;
   font-family: 'Patua One', cursive;
+  width:36rem;
   .line1{
-    width: 0;
+    width: 30rem;
+    opacity: 0;
     overflow: hidden;
     border-right: .15em solid $boldBlue;
     white-space: nowrap;
     animation: 
       typing 2s steps(40, end);
+    animation-fill-mode: forwards;
   }
   .line2{
-    width: 0;
+    width: 22rem;
+    opacity: 0;
     overflow: hidden;
     border-right: .15em solid $boldBlue;
     white-space: nowrap;
     animation:
       typing 2s steps(40, end);
     animation-delay: 2s;
+    animation-fill-mode: forwards;
   }
   .line3{
-    width: 0;
+    width: 36rem;
+    opacity: 0;
     overflow: hidden;
     white-space: nowrap;
     border-right: .15em solid $boldBlue;
     animation: 
-      typing 2s steps(40, end),
+      typingLast 2s steps(40, end),
       blink-caret .75s step-end infinite;
     animation-delay: 4s;
+    animation-fill-mode: forwards;
   }
 }
 /* The typing effect */
 @keyframes typing {
   0% { 
     width: 0; }
-  100% { 
-    width: 100%;
-   }
+  1%{
+    opacity: 1;
+  }
+  99.9%{
+    border-right: .15em solid $boldBlue;
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+@keyframes typingLast {
+  0% { 
+    width: 0; }
+  1%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* The typewriter cursor effect */
