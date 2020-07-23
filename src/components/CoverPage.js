@@ -16,8 +16,8 @@ class CoverPage extends Component {
   render(){
     return(
         <div className="reg-page">
-          <Background />
-          <Heading />
+          {/* <Background /> */}
+          {/* <Heading /> */}
           <Link activeClass="active" to="mainpage" spy={true} smooth={true} offset={0} duration={1000} >
             <ScrollIcon />
           </Link>
