@@ -23,6 +23,7 @@ p {
 
 .main-heading {
   font-size: 2.4rem;
+  max-width: 100wv;
   text-align: left;
   font-family: 'Patua One', cursive;
   width:20rem;
@@ -155,10 +156,6 @@ p {
 .reg-page {
   max-width: 100vw;
   min-height:100vh;
-}
-.large-page{
-  max-width: 200vw;
-  min-height:100vh; 
 }
 
 .grid-container{
