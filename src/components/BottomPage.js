@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
-import '../styles/Port.scss';
+import '../styles/Base.scss';
 
 import Heading from './Heading';
 import EmailIcon from './EmailIcon';

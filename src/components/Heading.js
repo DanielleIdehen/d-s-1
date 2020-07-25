@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import '../styles/Port.scss';
+import '../styles/Base.scss';
 
 class Heading extends Component{
   constructor(props){

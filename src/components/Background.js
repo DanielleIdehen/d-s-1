@@ -1,4 +1,4 @@
-import '../styles/Port.scss';
+import '../styles/Base.scss';
 import React, { Component } from 'react';
 
 class Background extends Component {
