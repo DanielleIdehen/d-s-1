@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import '../styles/Base.scss';
 import GridItem from './GridItem';
+import AboutMe from './AboutMe';
 
 class MainGrid extends Component{
   constructor(props){
@@ -9,7 +10,8 @@ class MainGrid extends Component{
   render(){
     return(
       <div className="grid-container">
-        <GridItem 
+        <AboutMe />
+        {/* <GridItem 
           title="About Me" 
           points={["Problem Solver", "Team Sports", "Charity"]}
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -18,7 +20,7 @@ class MainGrid extends Component{
           Mauris sed metus ut elit auctor elementum sit amet nec arcu. 
           Praesent vel pulvinar ex, rhoncus elementum mauris. 
           Donec a turpis non est molestie volutpat sed nec turpis. 
-          Aenean gravida enim eu quam tincidunt, sed eleifend augue facilisis." />
+          Aenean gravida enim eu quam tincidunt, sed eleifend augue facilisis." /> */}
         <GridItem 
           title="Education"
           points= {["University Graduate"]}
