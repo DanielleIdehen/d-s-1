@@ -9,15 +9,18 @@ class Projects extends Component {
     const keyPoints = ["TBC"];
     return(
       <div className="grid-item">
-        <div className="title">*TBC</div>
-        <div className="key-points">{keyPoints? keyPoints.join(" , ") : " " }</div>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nam ultrices gravida vehicula. In dignissim, erat in tempus ultrices, 
-          ipsum dui pretium enim, non consequat felis quam eu justo. 
-          Mauris sed metus ut elit auctor elementum sit amet nec arcu. 
-          Praesent vel pulvinar ex, rhoncus elementum mauris. 
-          Donec a turpis non est molestie volutpat sed nec turpis. 
-          Aenean gravida enim eu quam tincidunt, sed eleifend augue facilisis.</p>
+        <div className="title">Projects</div>
+        <p>Below is a list of some of my favourite projects:</p>
+        <br></br>
+        <p><strong>Text mining adverse drug reactions from medical case reports</strong></p>
+        <p>Built, trained and tested two deep learning models (Bi-LSTM and the BiLSTM-CRF models)
+          to extract named entities from raw data.
+          Created a UI to view the results of the text mining.
+        </p>
+        <br></br>
+        <p><strong>Portfolio Website</strong></p>
+        <p>Created this website using React JS.
+        </p>
       </div>
     )
   }
