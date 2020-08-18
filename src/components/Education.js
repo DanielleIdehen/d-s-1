@@ -12,8 +12,8 @@ class Education extends Component {
         <div className="title">Education</div>
         <p style={{fontSize: "1.4rem"}}><strong>University of Manchester</strong></p>
         <p><i>2016-2020</i></p>
-        <p>BSc Computer Science with Industrial Experience</p>
-        <p>Grade: First Class (with Hons)</p>
+        <p>BSc (with Hons) Computer Science with Industrial Experience</p>
+        <p>Grade: First Class</p>
         <br></br>
         <p style={{fontSize: "1.4rem"}}><strong>Aquinas College</strong></p>
         <p><i>2014-2016</i></p>
