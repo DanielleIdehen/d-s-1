@@ -7,8 +7,11 @@ class AboutMe extends Component {
     super(props);
   }
   render(){
+    const keyPoints = ["Problem Solver", "Team Sports", "Charity"];
     return(
       <div className="grid-item">
+        <div className="title">About Me</div>
+        <div className="key-points">{keyPoints? keyPoints.join(" , ") : " " }</div>
 
       </div>
     )

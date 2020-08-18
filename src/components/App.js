@@ -14,7 +14,7 @@ class App extends Component{
     return (
       <div>
         <div id="coverpage"><CoverPage/></div>
-        <div id="mainpage"><MainPage/></div>
+        {/* <div id="mainpage"><MainPage/></div> */}
       </div> 
     )}
 }
