@@ -1,15 +1,15 @@
 import React, { Component} from 'react';
 import '../styles/Base.scss';
 
-class AboutMe extends Component {
+class Experience extends Component {
   constructor(props){
     super(props);
   }
   render(){
-    const keyPoints = ["Problem Solver", "Team Sports", "Charity"];
+    const keyPoints = ["TBC"];
     return(
       <div className="grid-item">
-        <div className="title">About Me</div>
+        <div className="title">*TBC</div>
         <div className="key-points">{keyPoints? keyPoints.join(" , ") : " " }</div>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Nam ultrices gravida vehicula. In dignissim, erat in tempus ultrices, 
@@ -23,4 +23,4 @@ class AboutMe extends Component {
   }
 }
 
-export default AboutMe;
+export default Experience;

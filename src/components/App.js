@@ -3,8 +3,6 @@ import '../styles/Base.scss';
 
 import CoverPage from './CoverPage';
 import MainPage from './MainPage';
-import BottomPage from './BottomPage';
-import Background from './Background';
 
 class App extends Component{
   constructor(props){
@@ -14,7 +12,7 @@ class App extends Component{
     return (
       <div>
         <div id="coverpage"><CoverPage/></div>
-        {/* <div id="mainpage"><MainPage/></div> */}
+        <div id="mainpage"><MainPage/></div>
       </div> 
     )}
 }
