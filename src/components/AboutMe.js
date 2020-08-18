@@ -10,14 +10,27 @@ class AboutMe extends Component {
     return(
       <div className="grid-item">
         <div className="title">About Me</div>
-        <div className="key-points">{keyPoints? keyPoints.join(" , ") : " " }</div>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nam ultrices gravida vehicula. In dignissim, erat in tempus ultrices, 
-          ipsum dui pretium enim, non consequat felis quam eu justo. 
-          Mauris sed metus ut elit auctor elementum sit amet nec arcu. 
-          Praesent vel pulvinar ex, rhoncus elementum mauris. 
-          Donec a turpis non est molestie volutpat sed nec turpis. 
-          Aenean gravida enim eu quam tincidunt, sed eleifend augue facilisis.</p>
+        <p> Hello! My Name is Danielle. Thank you for visiting this site.</p>
+        <p>
+          This is a portfolio website which I created to showcase some of what I can do.
+          If you have any comments or questions please contact me via the email icon in the bottom right corner.
+          Failing that, I'm an active linkedIn member, so feel free to connect with me at anytime.
+        </p>
+        <br></br>
+        <p>
+          So who I am? That's a hard question to answer.
+          If I consider myself as the sum my achievements I can say with certainty that I am a competent computer scientist (First Class degree - Univeristy of Manchester).
+          I held an AWS cloud certification for mulitple years, so have vast experience 'in the cloud'.
+          <br></br>But more than that, I am a fun loving and passionate mixed race woman.
+          I've played competitive team sports from a young age, netball became my favourite of those sport which I continued to play throughout univeristy.
+          I especially enjoy being creative in the kitchen, I use my creations as fuel for my workouts.
+          In my spare time I often think of ideas and bring them to flurision, hence the creation of this website and the other projects I have done to date.
+        </p>
+        <br></br>
+        <p>
+          As you can imagine, there is more to me than food, sports and code. So please get in touch if you want to know more
+          (via the email icon on the bottom right).
+        </p>
       </div>
     )
   }

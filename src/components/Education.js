@@ -9,15 +9,21 @@ class Education extends Component {
     const keyPoints = ["TBC"];
     return(
       <div className="grid-item">
-        <div className="title">*TBC</div>
-        <div className="key-points">{keyPoints? keyPoints.join(" , ") : " " }</div>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nam ultrices gravida vehicula. In dignissim, erat in tempus ultrices, 
-          ipsum dui pretium enim, non consequat felis quam eu justo. 
-          Mauris sed metus ut elit auctor elementum sit amet nec arcu. 
-          Praesent vel pulvinar ex, rhoncus elementum mauris. 
-          Donec a turpis non est molestie volutpat sed nec turpis. 
-          Aenean gravida enim eu quam tincidunt, sed eleifend augue facilisis.</p>
+        <div className="title">Education</div>
+        <p style={{fontSize: "1.4rem"}}><strong>University of Manchester</strong></p>
+        <p><i>2016-2020</i></p>
+        <p>BSc Computer Science with Industrial Experience</p>
+        <p>Grade: First Class (with Hons)</p>
+        <br></br>
+        <p style={{fontSize: "1.4rem"}}><strong>Aquinas College</strong></p>
+        <p><i>2014-2016</i></p>
+        <p> A-levels: 
+          <ul>
+            <li>Mathematics (A*)</li>
+            <li>Further Mathematics (A)</li>
+            <li>Physics (B)</li>
+          </ul>
+        </p>
       </div>
     )
   }
