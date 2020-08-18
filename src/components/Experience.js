@@ -10,6 +10,9 @@ class Experience extends Component {
     return(
       <div className="grid-item">
         <div className="title">Experience</div>
+        <p style={{fontSize: "1.4rem"}}><strong>Accenture</strong></p>
+        <p>Job Title: Application Developer</p>
+        <p>Achievements:</p>
       </div>
     )
   }

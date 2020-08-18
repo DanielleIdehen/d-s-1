@@ -5,7 +5,7 @@ import AboutMe from './AboutMe';
 import Education from './Education';
 import Projects from './Projects';
 import Experience from './Experience';
-
+import Summary from './Summary';
 
 class MainGrid extends Component{
   constructor(props){
@@ -17,7 +17,8 @@ class MainGrid extends Component{
         <AboutMe />
         <Education />
         <Projects />
-        <Experience />     
+        <Experience />
+        <Summary />     
       </div>  
     )}
 }
