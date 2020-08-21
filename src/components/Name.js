@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import InfoModal from './InfoModal';
 import '../styles/Base.scss';
 
 class Name extends Component {
@@ -9,6 +10,7 @@ class Name extends Component {
     return (
       <div class="name-container">
         <p>Danielle Idehen</p>
+        <InfoModal />
       </div>
     )}
 }

@@ -3,6 +3,7 @@ import '../styles/Base.scss';
 import Name from './Name';
 import MainGrid from './MainGrid';
 
+
 class MainPage extends Component {
   constructor(props){
     super(props);
