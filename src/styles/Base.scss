@@ -204,7 +204,6 @@ p {
 
 .info-modal {
   position: relative;
-  z-index: -1;
   border: solid 1px $softGreen;
   background-color: #defce0a8;
   margin:0.8rem;
@@ -213,7 +212,6 @@ p {
   padding: 2rem 1rem;
   border-radius: 6px;
   button{
-    padding: 0.1rem;
     position: absolute;
     top:0.2rem;
     right:0.2rem;
