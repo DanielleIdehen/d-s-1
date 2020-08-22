@@ -23,8 +23,8 @@ class InfoModal extends Component{
       <div>    
         { showModal  && 
           <div className='info-modal'> 
-            <p>Hello! My Name is Danielle. Thank you for visiting this site.
-              <br></br>This is a portfolio website which I created to showcase some of what I can do. 
+            <p>Hello! Thank you for visiting this site.
+              <br></br>This is a portfolio website that has been created to showcase some of what I can do. 
               If you have any comments or questions please contact me via the email icon in the bottom right corner. 
               <br></br>Failing that, I'm an active linkedIn member, so feel free to connect with me at anytime.</p>
             <button type="button" onClick={this.closeModal}>x</button>
