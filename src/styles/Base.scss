@@ -211,11 +211,14 @@ p {
   max-height: 80%;
   padding: 2rem 1rem;
   border-radius: 6px;
-  button{
+  button {
+    border: none;
+    border-radius: 2px;
+    background-color: #d1d0d05e;;
     position: absolute;
     top:0.2rem;
     right:0.2rem;
-    p{
+    p {
       vertical-align: middle;
     }
   }
