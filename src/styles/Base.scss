@@ -4,6 +4,7 @@
 //Styles--------------
 // $boldBlue: #4DB6AC;
 $boldBlue: green;
+$softGreen: rgba(0, 179, 0, 0.747);
 $softBlue:#B2DFDB;
 $boldPink:#b64d58;
 $softPink:#E498A6;
@@ -198,15 +199,19 @@ p {
   }
 }
 
-.info-modal{
-  border: solid 1px #3498db;
-  background-color: #d9d9d9;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.info-modal {
+  border: solid 1px $softGreen;
+  background-color: #defce0a8;
+  margin:0.8rem;
   max-width: 90%;
   max-height: 80%;
+  padding: 2rem 1rem;
+  border-radius: 6px;
+  button{
+    position: absolute;
+    top:0.2rem;
+    right:0.2rem;
+  }
 }
 
 @media (min-width: 600px) {

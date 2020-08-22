@@ -10,13 +10,6 @@ class AboutMe extends Component {
     return(
       <div className="grid-item">
         <div className="title">About Me</div>
-        <p> Hello! My Name is Danielle. Thank you for visiting this site.</p>
-        <p>
-          This is a portfolio website which I created to showcase some of what I can do.
-          If you have any comments or questions please contact me via the email icon in the bottom right corner.
-          Failing that, I'm an active linkedIn member, so feel free to connect with me at anytime.
-        </p>
-        <br></br>
         <p>
           So who I am? That's a hard question to answer.
           If I consider myself as the sum my achievements I can say with certainty that I am a competent computer scientist (First Class degree - Univeristy of Manchester).

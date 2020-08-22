@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/Base.scss';
 import Name from './Name';
 import MainGrid from './MainGrid';
+import InfoModal from './InfoModal';
 
 
 class MainPage extends Component {
@@ -13,6 +14,7 @@ class MainPage extends Component {
     return(
       <div className="reg-page">
         <Name />
+        <InfoModal />
         <MainGrid />
       </div>
     )}

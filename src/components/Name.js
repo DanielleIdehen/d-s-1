@@ -10,7 +10,6 @@ class Name extends Component {
     return (
       <div class="name-container">
         <p>Danielle Idehen</p>
-        <InfoModal />
       </div>
     )}
 }
