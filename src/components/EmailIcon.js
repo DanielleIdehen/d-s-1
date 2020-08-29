@@ -10,7 +10,7 @@ class EmailIcon extends Component {
 
   render(){
     return(
-      <a href="mailto:someone@example.com">
+      <a href="mailto:danielle.idehen@gmail.com">
         <div class="email-container">
           <div class="email-icon">
           <FontAwesomeIcon icon={faEnvelope} />
