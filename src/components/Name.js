@@ -8,9 +8,11 @@ class Name extends Component {
   }
   render(){
     return (
+      <a href="https://www.linkedin.com/in/danielle-idehen-4755ba172/?originalSubdomain=uk" target="_blank">
       <div class="name-container">
         <p>Danielle Idehen</p>
       </div>
+      </a>
     )}
 }
 

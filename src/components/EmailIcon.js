@@ -15,8 +15,7 @@ class EmailIcon extends Component {
       %0D%0A
       *Insert your message*
       %0D%0A %0D%0A %0D%0A
-      Kind regards,
-      ">
+      Kind regards,">
         <div class="email-container">
           <div class="email-icon">
           <FontAwesomeIcon icon={faEnvelope} />
