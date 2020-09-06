@@ -14,7 +14,7 @@ class Summary extends Component {
           but yet informative and personal. I hope it made for pleasant reading.
           If you would like to discuss job opportunities or any other things,
           please dont hesistate to contact me via the email icon on the bottom right or search for me on LinkedIn
-          (full name is in the top left corner).
+          (name icon in top left corner is a link to my profile).
         </p>
       </div>
     )
